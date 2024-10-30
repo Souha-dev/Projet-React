@@ -1,0 +1,140 @@
+.product-img {
+  height: 78%;
+  object-fit: scale-down;
+  width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+
+
+
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+.clstyle{
+    border-radius: 1px red solid !important;
+}
+html,
+body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+.swiper-item {
+    width: 200 px;
+    height: 150 px;
+    /* background-color: aqua !important;  */
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+}
+
+.product-img {
+    /* width: 95% !important; */
+    /* object-fit: cover;
+    height: 80%;
+    width: auto; */
+    object-fit: contain;
+  
+    height: 70%;
+    width: 80%;
+    margin-bottom: 5%;
+}
+.product-image {
+    /* height: 19rem; */
+    position: relative;
+    margin: 0px 0 -2.6rem 0 !important;
+    padding: 0 !important;
+}
+.img-container {
+    height: 200px;
+    width: 100%;
+    padding: 10%;
+}

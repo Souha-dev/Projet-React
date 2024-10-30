@@ -1,0 +1,18 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "../Home";
+import Boutique from "../Boutique/Boutique";
+
+// Assurez-vous que le chemin est correct
+
+function Routing() {
+  return (
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/boutique" element={<Boutique />} />
+        </Routes>
+    </Router>
+  );
+}
+
+export default Routing;

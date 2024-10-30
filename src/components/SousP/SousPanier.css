@@ -1,0 +1,36 @@
+.container{
+    /* background-color: white; */
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+.img{
+    width: 50px;
+
+}
+.all4 {
+display: grid;
+  /* justify-content: space-between; */
+  width: 100%;}
+
+ 
+  .all6{
+    display: ruby;
+
+  }
+  .b1{
+    width: 40px;
+  
+    z-index: 5;
+ 
+   margin-bottom: 10px;
+  }
+ 
+
+  .btn{
+    color :black;
+    background-color: rgb(250, 252, 252);
+    outline: none;
+    margin-right: auto;
+  }

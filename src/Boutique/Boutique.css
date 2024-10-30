@@ -1,0 +1,41 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-content {
+  display: flex;
+  flex-wrap: wrap;}
+/* .card{
+    border-radius: 15px;
+    
+    padding: 14px;
+    margin: 15px;
+}
+.most-popular-item-image{
+    width: 100%;
+}
+
+.most-popular-content{
+    display: flex;
+    justify-content: space-between;
+}
+.filter-result{
+    font-size: 12px;
+} */
+/* ProductCard.css */
+
+.d{
+    display: flex;
+    justify-content: space-between;
+}
+.hhh{
+    background-color: white;
+ 
+    
+}
+.container 
+{
+    display: flex;
+    justify-content: space-between; /* ou flex-start, center, etc. selon vos besoins */
+}
